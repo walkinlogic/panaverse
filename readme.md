@@ -103,11 +103,7 @@ This means you can use absolute imports with custom namespaces by default for th
 /* import common library */
 import lib from '@common/<folder>/<lib>'
 /* import component */
-import Counter from '@components/counter/Counter'
-/* import container */
-import HomepageCounter from '@containers/counter/HomepageCounter'
-/* import store files */
-import { CounterAction } from '@store/counter/counterActions'
+import Footer from '@components/Footer' 
 ```
 
 ### SCSS
