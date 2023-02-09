@@ -14,8 +14,10 @@ import {
 } from '@chakra-ui/react';
 import { ReactElement } from 'react';
 import {
-    IoSearchSharp,
+    IoCheckmarkSharp,
 } from 'react-icons/io5';
+
+
 interface FeatureProps {
     text: string;
     iconBg: string;
@@ -67,28 +69,28 @@ const HowitworksPage: React.FC = () => {
                             }>
                             <Feature
                                 icon={
-                                    <Icon as={IoSearchSharp} color={'yellow.500'} w={5} h={5} />
+                                    <Icon as={IoCheckmarkSharp} color={'yellow.500'} w={5} h={5} />
                                 }
                                 iconBg={useColorModeValue('yellow.100', 'yellow.900')}
                                 text={'Karachi: Accepting applications in Karachi'}
                             />
                             <Feature
-                                icon={<Icon as={IoSearchSharp} color={'green.500'} w={5} h={5} />}
+                                icon={<Icon as={IoCheckmarkSharp} color={'green.500'} w={5} h={5} />}
                                 iconBg={useColorModeValue('green.100', 'green.900')}
                                 text={'Islamabad: Accepting applications in Islamabad'}
                             />
                             <Feature
                                 icon={
-                                    <Icon as={IoSearchSharp} color={'purple.500'} w={5} h={5} />
+                                    <Icon as={IoCheckmarkSharp} color={'purple.500'} w={5} h={5} />
                                 }
                                 iconBg={useColorModeValue('purple.100', 'purple.900')}
                                 text={'Lahore: Accepting applications in Lahore'}
                             />
                             <Feature
                                 icon={
-                                    <Icon as={IoSearchSharp} color={'purple.500'} w={5} h={5} />
+                                    <Icon as={IoCheckmarkSharp} color={'red.500'} w={5} h={5} />
                                 }
-                                iconBg={useColorModeValue('purple.100', 'purple.900')}
+                                iconBg={useColorModeValue('red.100', 'red.900')}
                                 text={'Peshawar: Accepting applications in Peshawar'}
                             />
                         </Stack>
@@ -118,28 +120,28 @@ const HowitworksPage: React.FC = () => {
                             }>
                             <Feature
                                 icon={
-                                    <Icon as={IoSearchSharp} color={'yellow.500'} w={5} h={5} />
+                                    <Icon as={IoCheckmarkSharp} color={'yellow.500'} w={5} h={5} />
                                 }
                                 iconBg={useColorModeValue('yellow.100', 'yellow.900')}
                                 text={'1- Signup at PIAIC Portal.'}
                             />
                             <Feature
-                                icon={<Icon as={IoSearchSharp} color={'green.500'} w={5} h={5} />}
+                                icon={<Icon as={IoCheckmarkSharp} color={'green.500'} w={5} h={5} />}
                                 iconBg={useColorModeValue('green.100', 'green.900')}
                                 text={'2- Submit the online application.'}
                             />
                             <Feature
                                 icon={
-                                    <Icon as={IoSearchSharp} color={'purple.500'} w={5} h={5} />
+                                    <Icon as={IoCheckmarkSharp} color={'purple.500'} w={5} h={5} />
                                 }
                                 iconBg={useColorModeValue('purple.100', 'purple.900')}
                                 text={'3- Pass the entrance exam which consists of multiple choice English and Mathematics questions. Results are determined based on percentile.'}
                             />
                             <Feature
                                 icon={
-                                    <Icon as={IoSearchSharp} color={'purple.500'} w={5} h={5} />
+                                    <Icon as={IoCheckmarkSharp} color={'red.500'} w={5} h={5} />
                                 }
-                                iconBg={useColorModeValue('purple.100', 'purple.900')}
+                                iconBg={useColorModeValue('red.100', 'red.900')}
                                 text={'4- Pass all PIAIC exams with an average score of at least 70%.'}
                             />
                         </Stack>
