@@ -35,17 +35,18 @@ export default function Hero() {
                                 bg: 'red.400',
                                 zIndex: -1,
                             }}>
-                            Write once,
+                            Certified
                         </Text>
                         <br />
                         <Text as={'span'} color={'red.400'}>
-                            use everywhere!
+                            Web 3.0 and Metaverse Developer
                         </Text>
                     </Heading>
                     <Text color={'gray.500'}>
-                        Snippy is a rich coding snippets app that lets you create your own
-                        code snippets, categorize them, and even sync them in the cloud so
-                        you can use them anywhere. All that is free!
+                        A Nationwide Program in Karachi, Lahore, Islamabad, and Peshawar
+                    </Text>
+                    <Text color={'gray.500'}>
+                        Getting Ready for the Next Generation and Future of the Internet - Join a 13 Trillion Dollar Industry with 5 Billion Users
                     </Text>
                     <Stack
                         spacing={{ base: 4, sm: 6 }}
