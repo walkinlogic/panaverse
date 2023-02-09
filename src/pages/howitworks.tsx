@@ -12,9 +12,8 @@ import {
     useColorModeValue,
     Stack
 } from '@chakra-ui/react';
+import { ReactElement } from 'react';
 import {
-    IoAnalyticsSharp,
-    IoLogoBitcoin,
     IoSearchSharp,
 } from 'react-icons/io5';
 interface FeatureProps {

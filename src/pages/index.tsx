@@ -11,7 +11,6 @@ import {
 const HomePage: React.FC = () => {
   const linkColor = useColorModeValue('blue.600', 'blue.200');
   const linkHoverColor = useColorModeValue('gray.800', 'white');
-  const popoverContentBgColor = useColorModeValue('white', 'gray.800');
   return (
     <>
       <Hero></Hero>

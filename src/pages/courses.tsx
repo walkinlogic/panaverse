@@ -1,7 +1,6 @@
 import Courselist from '../components/Courselist';
 import {
     Text,
-    Box,
     Flex,
     Container,
     Image,
@@ -12,6 +11,7 @@ import {
     useColorModeValue,
     Stack
 } from '@chakra-ui/react';
+import { ReactElement } from 'react';
 import {
     IoSearchSharp,
 } from 'react-icons/io5';
