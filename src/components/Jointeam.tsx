@@ -159,7 +159,7 @@ export default function Jointeam() {
                                 }}
                             />
                             <Input
-                                placeholder="+1 (___) __-___-___"
+                                placeholder="+92 (___) __-___-___"
                                 bg={'gray.100'}
                                 border={0}
                                 color={'gray.500'}

@@ -16,6 +16,7 @@ import {
     InputGroup,
     InputLeftElement,
     Textarea,
+    useColorModeValue,
 } from '@chakra-ui/react';
 import {
     MdPhone,
@@ -28,10 +29,10 @@ import { BsGithub, BsDiscord, BsPerson } from 'react-icons/bs';
 
 const ContactusPage: React.FC = () => {
     return (
-        <Container bg="#9DC4FB" maxW="full" mt={0} centerContent overflow="hidden">
+        <Container bg={useColorModeValue('blackAlpha.80', 'whiteAlpha.100')} maxW="full" mt={0} centerContent overflow="hidden">
             <Flex>
                 <Box
-                    bg="#02054B"
+                    bg={useColorModeValue('black', 'whiteAlpha.100')}
                     color="white"
                     borderRadius="lg"
                     m={{ sm: 4, md: 16, lg: 10 }}
@@ -52,9 +53,9 @@ const ContactusPage: React.FC = () => {
                                                 width="200px"
                                                 variant="ghost"
                                                 color="#DCE2FF"
-                                                _hover={{ border: '2px solid #1C6FEB' }}
-                                                leftIcon={<MdPhone color="#1970F1" size="20px" />}>
-                                                +92-988888888
+                                                _hover={{ border: '2px solid #F56565' }}
+                                                leftIcon={<MdPhone color="#F56565" size="20px" />}>
+                                                +92-3008263374
                                             </Button>
                                             <Button
                                                 size="md"
@@ -62,9 +63,9 @@ const ContactusPage: React.FC = () => {
                                                 width="200px"
                                                 variant="ghost"
                                                 color="#DCE2FF"
-                                                _hover={{ border: '2px solid #1C6FEB' }}
-                                                leftIcon={<MdEmail color="#1970F1" size="20px" />}>
-                                                hello@abc.com
+                                                _hover={{ border: '2px solid #F56565' }}
+                                                leftIcon={<MdEmail color="#F56565" size="20px" />}>
+                                                hello@panaverse.co
                                             </Button>
                                             <Button
                                                 size="md"
@@ -72,8 +73,8 @@ const ContactusPage: React.FC = () => {
                                                 width="200px"
                                                 variant="ghost"
                                                 color="#DCE2FF"
-                                                _hover={{ border: '2px solid #1C6FEB' }}
-                                                leftIcon={<MdLocationOn color="#1970F1" size="20px" />}>
+                                                _hover={{ border: '2px solid #F56565' }}
+                                                leftIcon={<MdLocationOn color="#F56565" size="20px" />}>
                                                 Karachi, Pakistan
                                             </Button>
                                         </VStack>

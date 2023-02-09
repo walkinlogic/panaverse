@@ -129,16 +129,9 @@ export default function Footer() {
                         <ListHeader>Company</ListHeader>
                         <Link href={'/'}>Home</Link>
                         <Link href={'/courses'}>Courses</Link>
+                        <Link href={'/howitworks'}>How it Works</Link>
                         <Link href={'contactus'}>Contact us</Link>
                     </Stack>
-                    {/* <Stack align={'flex-start'}>
-                        <ListHeader>Support</ListHeader>
-                        <Link href={'#'}>Help Center</Link>
-                        <Link href={'#'}>Terms of Service</Link>
-                        <Link href={'#'}>Legal</Link>
-                        <Link href={'#'}>Privacy Policy</Link>
-                        <Link href={'#'}>Satus</Link>
-                    </Stack> */}
                     <Stack align={'flex-start'}>
                         <ListHeader>Stay up to date</ListHeader>
                         <Stack direction={'row'}>

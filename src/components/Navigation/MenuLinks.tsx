@@ -16,6 +16,7 @@ const MenuLinks = ({ isOpen }: props) => {
                 pt={[4, 4, 0, 0]}>
                 <MenuItem to="/">Home</MenuItem>
                 <MenuItem to="/courses">Courses</MenuItem>
+                <MenuItem to="/howitworks">How it Works</MenuItem>
                 <MenuItem to="/contactus">Contact Us</MenuItem>
             </Stack>
         </Box>
