@@ -47,8 +47,8 @@ const Feature = ({ text, icon, iconBg }: FeatureProps) => {
 const CoursesPage: React.FC = () => {
     return (
         <>
-            <Container maxW={'5xl'} mt={"10"} py={12}>
-                <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
+            <Container maxW={'5xl'} py={12}>
+                <SimpleGrid mt={"10"} columns={{ base: 1, md: 2 }} spacing={10}>
                     <Stack spacing={4}>
                         <Heading>How it Work</Heading>
                         <Text color={'gray.500'} fontSize={'lg'}>
