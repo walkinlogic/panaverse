@@ -1,4 +1,4 @@
-import { Box } from "@chakra-ui/react";
+import { Box, useColorModeValue } from "@chakra-ui/react";
 import NavBar from './NavBar';
 import Footer from './Footer';
 import Jointeam from './Jointeam';

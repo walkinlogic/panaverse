@@ -13,7 +13,7 @@ const NavBar = (props: any) => {
     //const toggle = () => setIsOpen(!isOpen)
 
     return (
-        <NavBarContainer mb={"0"} {...props} bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}>
+        <NavBarContainer as="header" backdropFilter="saturate(180%) blur(5px)" zIndex="99" position="fixed" w="100%" mb={"0"} {...props} bg={useColorModeValue('blackAlpha.400', 'whiteAlpha.400')}>
             <Logo w="240px" />
             <MenuLinks isOpen={isOpen} />
             {/* <ToggleLayout />  toggle={toggle} */}
