@@ -81,7 +81,7 @@ const HomePage: React.FC = () => {
 
       <Container maxW={'full'} py={12} >
         <Stack direction={'row'} spacing={4} align={'center'}><Heading color={'green.600'} fontSize={'3xl'}>Courses</Heading></Stack>
-        <SimpleGrid columns={{ base: 1, md: 2 }} spacing={5}>
+        <SimpleGrid columns={{ base: 1, md: 2, xl: 3 }} spacing={5}>
           {datacourses.map((content) => (
             <Stack spacing={4} className="card">
               <Courselist text={content.text} short={content.short} image={content.image}></Courselist>
