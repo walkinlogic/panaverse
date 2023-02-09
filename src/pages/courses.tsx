@@ -101,7 +101,7 @@ const CoursesPage: React.FC = () => {
                     </Flex>
                 </SimpleGrid>
             </Container>
-            <Container maxW={'full'} py={12} >
+            <Container maxW={'5xl'} py={12} >
                 <Stack direction={'row'} spacing={4} align={'center'}><Heading color={'green.600'} fontSize={'3xl'}>Courses</Heading></Stack>
                 <SimpleGrid columns={{ base: 1, md: 2, xl: 3 }} spacing={5}>
                     {datacourses.map((content) => (

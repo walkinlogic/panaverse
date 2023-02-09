@@ -153,7 +153,7 @@ const HowitworksPage: React.FC = () => {
             </Container>
             <Container bg={useColorModeValue('green.400', 'green.400')} maxW="full" m={{ sm: 0, md: 0, lg: 0 }} centerContent overflow="hidden">
                 <Box
-                    //bg={useColorModeValue('green.400', 'greenAlpha.100')}
+                    maxW="5xl"
                     color="white"
                     borderRadius="lg"
                     m={{ sm: 0, md: 0, lg: 10 }}
@@ -173,6 +173,7 @@ const HowitworksPage: React.FC = () => {
                 <Box
                     bg={useColorModeValue('white.400', 'white.100')}
                     color="white"
+                    maxW="5xl"
                     borderRadius="lg"
                     m={{ sm: 0, md: 0, lg: 0 }}
                     p={{ sm: 5, md: 5, lg: 10 }}>
@@ -185,7 +186,7 @@ const HowitworksPage: React.FC = () => {
                 <Box
                     bg={useColorModeValue('green.400', 'greenAlpha.100')}
                     color="white"
-                    maxW="full"
+                    maxW="5xl"
                     borderRadius="lg"
                     m={{ sm: 0, md: 0, lg: 10 }}
                     p={{ sm: 5, md: 5, lg: 5 }}>
@@ -198,7 +199,7 @@ const HowitworksPage: React.FC = () => {
                 <Box
                     //bg={useColorModeValue('blackAlpha.800', 'blackAlpha.800')}
                     color="black"
-                    maxW="full"
+                    maxW="5xl"
                     borderRadius="lg"
                     m={{ sm: 0, md: 0, lg: 10 }}
                     p={{ sm: 5, md: 5, lg: 5 }}>

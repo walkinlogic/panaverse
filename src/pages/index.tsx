@@ -24,8 +24,8 @@ const HomePage: React.FC = () => {
   return (
     <>
       <Hero></Hero>
-      <Box p={4}>
-        <Stack spacing={4} as={Container} maxW={'full'} textAlign={'center'}>
+      <Box p={4} maxW={'full'}>
+        <Stack spacing={4} as={Container} maxW={'5xl'} textAlign={'center'}>
           <Heading color={'green.600'} fontSize={'3xl'}>Panaverse DAO</Heading>
           <Text color={'green.600'} fontSize={'xl'}>
             The Future of the Web is Web 3.0, Metaverse, and Edge Computing. Panaverse DAO is a movement to spread these technolgies globally. It is community of Web 3 and Metaverse developers, designers, trainers, startup founders and service providers.
@@ -79,15 +79,17 @@ const HomePage: React.FC = () => {
         </Stack>
       </Box>
 
-      <Container maxW={'full'} py={12} >
+      <Container maxW={'5xl'} py={12} >
         <Stack direction={'row'} spacing={4} align={'center'}><Heading color={'green.600'} fontSize={'3xl'}>Courses</Heading></Stack>
-        <SimpleGrid columns={{ base: 1, md: 2, xl: 3 }} spacing={5}>
-          {datacourses.map((content) => (
-            <Stack spacing={4} className="card">
-              <Courselist text={content.text} short={content.short} image={content.image}></Courselist>
-            </Stack>
-          ))}
-        </SimpleGrid>
+        <Box maxW={'5xl'}>
+          <SimpleGrid columns={{ base: 1, md: 2, xl: 3 }} spacing={5}>
+            {datacourses.map((content) => (
+              <Stack spacing={4} className="card">
+                <Courselist text={content.text} short={content.short} image={content.image}></Courselist>
+              </Stack>
+            ))}
+          </SimpleGrid>
+        </Box>
       </Container>
     </>
   )
