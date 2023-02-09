@@ -8,7 +8,12 @@ import {
     Image,
     useColorModeValue,
 } from '@chakra-ui/react';
-export default function Courselist({ text, short, image }) {
+export interface props {
+    text?: string;
+    short?: string;
+    image?: string;
+}
+const Courselist = ({ text, short, image }: props) => {
     return (
         <>
             <Center py={6}>
@@ -37,3 +42,5 @@ export default function Courselist({ text, short, image }) {
         </>
     )
 }
+
+export default Courselist

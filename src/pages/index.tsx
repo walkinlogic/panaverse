@@ -79,12 +79,11 @@ const HomePage: React.FC = () => {
         </Stack>
       </Box>
 
-      <Container maxW={'full'} py={12}>
-        <Heading color={'green.600'} align="center" fontSize={'3xl'}>Courses</Heading>
+      <Container maxW={'full'} py={12} >
+        <Stack direction={'row'} spacing={4} align={'center'}><Heading color={'green.600'} fontSize={'3xl'}>Courses</Heading></Stack>
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={5}>
           {datacourses.map((content) => (
-            <Stack spacing={4} key={content.id} className="card">
-
+            <Stack spacing={4} className="card">
               <Courselist text={content.text} short={content.short} image={content.image}></Courselist>
             </Stack>
           ))}
