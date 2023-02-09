@@ -82,7 +82,7 @@ export default function Footer() {
             color={useColorModeValue('gray.700', 'gray.200')}>
             <Container as={Stack} maxW={'6xl'} py={10}>
                 <SimpleGrid
-                    templateColumns={{ sm: '1fr 1fr', md: '2fr 1fr 1fr 2fr' }}
+                    templateColumns={{ sm: '1fr 1fr', md: '4fr 1fr 3fr 0fr' }}
                     spacing={8}>
                     <Stack spacing={6}>
                         <Box>
@@ -109,7 +109,6 @@ export default function Footer() {
                                     </Text>
                                 </Heading>
                             </Stack>
-
                         </Box>
                         <Text fontSize={'sm'}>
                             The Future of the Web is Web 3.0, Metaverse, and Edge Computing. Panaverse DAO is a movement to spread these technolgies globally. It is community of Web 3 and Metaverse developers, designers, trainers, startup founders and service providers.

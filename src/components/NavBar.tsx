@@ -1,4 +1,7 @@
 'use client'
+import {
+    useColorModeValue,
+} from '@chakra-ui/react';
 import React from "react";
 import Logo from './Navigation/Logo';
 import MenuLinks from "./Navigation/MenuLinks";
@@ -10,8 +13,8 @@ const NavBar = (props: any) => {
     //const toggle = () => setIsOpen(!isOpen)
 
     return (
-        <NavBarContainer {...props}>
-            <Logo w="100px" />
+        <NavBarContainer {...props} bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}>
+            <Logo w="240px" />
             <MenuLinks isOpen={isOpen} />
             {/* <ToggleLayout />  toggle={toggle} */}
             <MenuToggle isOpen />
