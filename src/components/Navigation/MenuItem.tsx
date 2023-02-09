@@ -1,7 +1,10 @@
 import React from "react"
 import { Link, Text, useColorModeValue } from '@chakra-ui/react';
-
-const MenuItem = ({ children, to = "/", ...rest }) => {
+export interface props {
+    children?: React.ReactNode;
+    to: string;
+}
+const MenuItem = ({ children, to = "/", ...rest }: props) => {
 
     return (
         <Link href={to}>

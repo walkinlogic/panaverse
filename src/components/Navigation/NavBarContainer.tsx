@@ -1,6 +1,8 @@
-import { Flex, useColorModeValue } from "@chakra-ui/react"
-
-const NavBarContainer = ({ children, ...extraStyles }) => {
+import { Flex } from "@chakra-ui/react"
+export interface props {
+    children?: React.ReactNode;
+}
+const NavBarContainer = ({ children, ...extraStyles }: props) => {
     return (
         <Flex
             as="nav"

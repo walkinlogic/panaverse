@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Courselist from '../components/Courselist';
 
 const CoursesPage: React.FC = () => {

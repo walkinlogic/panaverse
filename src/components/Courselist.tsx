@@ -1,13 +1,12 @@
+'use client'
 import {
     Box,
     Center,
     Heading,
     Text,
     Stack,
-    Avatar,
     useColorModeValue,
 } from '@chakra-ui/react';
-import { ChakraProvider } from '@chakra-ui/react';
 export default function Courselist() {
     return (
         <>
@@ -41,16 +40,6 @@ export default function Courselist() {
                             erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
                             et ea rebum.
                         </Text>
-                    </Stack>
-                    <Stack mt={6} direction={'row'} spacing={4} align={'center'}>
-                        <Avatar
-                            src={'https://avatars0.githubusercontent.com/u/1164541?v=4'}
-                            alt={'Author'}
-                        />
-                        <Stack direction={'column'} spacing={0} fontSize={'sm'}>
-                            <Text fontWeight={600}>Achim Rolle</Text>
-                            <Text color={'gray.500'}>Feb 08, 2021 · 6min read</Text>
-                        </Stack>
                     </Stack>
                 </Box>
             </Center>

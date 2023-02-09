@@ -1,6 +1,9 @@
 import { Box, Stack } from '@chakra-ui/react';
 import MenuItem from './MenuItem';
-const MenuLinks = ({ isOpen }) => {
+export interface props {
+    isOpen?: React.ReactNode;
+}
+const MenuLinks = ({ isOpen }: props) => {
     return (
         <Box
             display={{ base: isOpen ? "block" : "none", md: "block" }}

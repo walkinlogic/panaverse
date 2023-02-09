@@ -1,10 +1,13 @@
 import React from "react"
 import { Box } from "@chakra-ui/react"
 import { HamburgerIcon } from "@chakra-ui/icons"
-
-function MenuToggle({ toggle, isOpen }) {
+export interface props {
+    isOpen?: React.ReactNode;
+    toggle?: React.MouseEvent;
+}
+function MenuToggle({ toggle, isOpen }: props) {
     return (
-        <Box display={{ base: "block", md: "none" }} onClick={toggle}>
+        <Box display={{ base: "block", md: "none" }} onClick={() => toggle}>
             {isOpen ? <HamburgerIcon /> : <HamburgerIcon />}
         </Box>
     )

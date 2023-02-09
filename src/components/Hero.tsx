@@ -6,12 +6,7 @@ import {
     Heading,
     Text,
     Button,
-    Image,
-    Icon,
-    IconButton,
-    createIcon,
-    IconProps,
-    useColorModeValue,
+    Image
 } from '@chakra-ui/react';
 
 export default function Hero() {

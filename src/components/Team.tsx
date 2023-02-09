@@ -1,13 +1,11 @@
+'use client'
 import {
     Heading,
     Avatar,
     Box,
     Center,
     Text,
-    Stack,
-    Button,
     Link,
-    Badge,
     useColorModeValue,
 } from '@chakra-ui/react';
 export default function Team() {
@@ -26,7 +24,7 @@ export default function Team() {
                     src={
                         'https://images.unsplash.com/photo-1520810627419-35e362c5dc07?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ'
                     }
-                    alt={'Avatar Alt'}
+                    name={'Avatar Alt'}
                     mb={4}
                     pos={'relative'}
                     _after={{
@@ -57,30 +55,6 @@ export default function Team() {
                     </Link>{' '}
                     me in your posts
                 </Text>
-
-                <Stack align={'center'} justify={'center'} direction={'row'} mt={6}>
-                    <Badge
-                        px={2}
-                        py={1}
-                        bg={useColorModeValue('gray.50', 'gray.800')}
-                        fontWeight={'400'}>
-                        #art
-                    </Badge>
-                    <Badge
-                        px={2}
-                        py={1}
-                        bg={useColorModeValue('gray.50', 'gray.800')}
-                        fontWeight={'400'}>
-                        #photography
-                    </Badge>
-                    <Badge
-                        px={2}
-                        py={1}
-                        bg={useColorModeValue('gray.50', 'gray.800')}
-                        fontWeight={'400'}>
-                        #music
-                    </Badge>
-                </Stack>
             </Box>
         </Center>
     )

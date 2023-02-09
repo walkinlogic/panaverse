@@ -1,8 +1,12 @@
-import { Box, Center } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import NavBar from './NavBar';
 import Footer from './Footer';
 import Jointeam from './Jointeam';
-export default function Layout({ children }) {
+import React from "react";
+export interface props {
+    children?: React.ReactNode;
+}
+const Layout = ({ children }: props) => {
     return (
         <>
             <Box>
@@ -16,3 +20,5 @@ export default function Layout({ children }) {
         </>
     )
 }
+
+export default Layout;
