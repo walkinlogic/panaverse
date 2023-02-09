@@ -29,7 +29,7 @@ import { BsGithub, BsDiscord, BsPerson } from 'react-icons/bs';
 
 const ContactusPage: React.FC = () => {
     return (
-        <Container bg={useColorModeValue('blackAlpha.80', 'whiteAlpha.100')} maxW="full" mt={0} centerContent overflow="hidden">
+        <Container bg={useColorModeValue('blackAlpha.80', 'whiteAlpha.100')} maxW="full" mt={10} centerContent overflow="hidden">
             <Flex>
                 <Box
                     bg={useColorModeValue('black', 'whiteAlpha.100')}
