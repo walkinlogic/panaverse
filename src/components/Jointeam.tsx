@@ -36,6 +36,10 @@ const avatars = [
         name: 'Imran Ali',
         url: '/static/images/ImranAli.jpg',
     },
+    {
+        name: 'Hira Shoaib',
+        url: '/static/images/HiraShoaib.png'
+    }
 ];
 export default function Jointeam() {
     return (
