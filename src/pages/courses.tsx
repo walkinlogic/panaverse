@@ -21,7 +21,7 @@ interface FeatureProps {
     icon?: ReactElement;
 }
 const datacourses = [
-    { id: 1, image: "/static/images/meta.png", text: "Web 3.0 and Metaverse Developer", short: "This Web 3.0 and Metaverse specialization focuses on developing full-stack Web 3.0 and Metaverse experiences for the next generation of the internet by specializing in building worlds that merge the best of cutting-edge decentralized distributed blockchains with 3D metaverse client experiences." },
+    { id: 1, image: "/static/images/web3_mataverse.jpg", text: "Web 3.0 and Metaverse Developer", short: "This Web 3.0 and Metaverse specialization focuses on developing full-stack Web 3.0 and Metaverse experiences for the next generation of the internet by specializing in building worlds that merge the best of cutting-edge decentralized distributed blockchains with 3D metaverse client experiences." },
     { id: 2, image: "/static/images/AI.png", text: "Artificial Intelligence", short: "The AI and Deep Learning specialization focuses on building and deploying intelligent APIs using OpenAI models and building custom Deep Learning Tensorflow models." },
     { id: 3, image: "/static/images/cloud.png", text: "Cloud-Native Computing", short: "The Cloud-Native Computing Specialization focuses on Containers, Kubernetes, and CDK for Kubernetes." },
     { id: 4, image: "/static/images/Iot.png", text: "Ambient Computing and IoT", short: "The Ambient Computing and IoT Specialization focuses on building Smart Homes, Offices, Factories, and Cities using Voice computing, Matter Protocol, and Embedded Devices." },

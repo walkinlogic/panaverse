@@ -17,24 +17,24 @@ import {
 } from '@chakra-ui/react';
 const avatars = [
     {
-        name: 'Ryan Florence',
-        url: 'https://bit.ly/ryan-florence',
+        name: 'Daniyal Nagori',
+        url: '/static/images/danyal.jpg',
     },
     {
-        name: 'Segun Adebayo',
-        url: 'https://bit.ly/sage-adebayo',
+        name: 'Zia Khan',
+        url: '/static/images/ziakhan.jpg',
     },
     {
-        name: 'Kent Dodds',
-        url: 'https://bit.ly/kent-c-dodds',
+        name: 'Adil Altaf',
+        url: '/static/images/AdilAltaf.jpg',
     },
     {
-        name: 'Prosper Otemuyiwa',
-        url: 'https://bit.ly/prosper-baba',
+        name: 'Zeeshan Hanif',
+        url: '/static/images/ZeeshanHanif.jpg',
     },
     {
-        name: 'Christian Nwamba',
-        url: 'https://bit.ly/code-beast',
+        name: 'Imran Ali',
+        url: '/static/images/ImranAli.jpg',
     },
 ];
 export default function Jointeam() {
