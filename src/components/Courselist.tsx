@@ -37,7 +37,7 @@ const Courselist = ({ text, short, image }: props) => {
                         pos={'relative'}>
                         <Image
                             src={image}
-                            layout={'fill'}
+                        // layout={'fill'}
                         />
                     </Box>
                     <Stack mb={10} h={'200px'}>
