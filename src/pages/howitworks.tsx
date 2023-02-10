@@ -43,7 +43,7 @@ const HowitworksPage: React.FC = () => {
     return (
         <>
             <Container maxW={'5xl'} py={12}>
-                <SimpleGrid columns={{ base: 1, md: 2 }} mt={"15"} spacing={10}>
+                <SimpleGrid columns={{ base: 1, md: 2 }} mt={{ sm: 10, md: 30, lg: 39 }} spacing={10}>
                     <Stack spacing={4}>
                         <Heading>How it Work</Heading>
                         <Text color={'gray.500'} fontSize={'lg'}>
