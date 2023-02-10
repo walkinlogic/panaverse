@@ -3,7 +3,8 @@ import { AppProps } from 'next/app'
 import '@common/css/layout.scss'
 import { ChakraProvider } from '@chakra-ui/react';
 import { extendTheme } from '@chakra-ui/react';
-import Layout from '@components/Layout'
+import Layout from '@components/Layout';
+import { Analytics } from '@vercel/analytics/react';
 const colors = {
   brand: {
     900: '#1a365d',
@@ -19,6 +20,7 @@ const CustomApp: FC<AppProps> = ({ Component, pageProps }) => {
       <Layout>
         <Component {...pageProps} />
       </Layout>
+      <Analytics />
     </ChakraProvider>
   )
 }
